@@ -1,0 +1,51 @@
+/* Aturan dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif; /* Mengatur jenis font */
+    margin: 0; /* Menghilangkan margin bawaan browser */
+    background-color: #f4f4f4; /* Warna latar belakang abu-abu muda */
+    display: flex; /* Menggunakan flexbox untuk penataan */
+    justify-content: center; /* Pusatkan konten secara horizontal */
+    align-items: center; /* Pusatkan konten secara vertikal */
+    min-height: 100vh; /* Pastikan tinggi minimal 100% dari tinggi viewport */
+}
+
+/* Styling untuk container utama */
+.container {
+    background-color: #ffffff; /* Warna latar belakang putih */
+    padding: 30px; /* Jarak di dalam container */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    text-align: center; /* Pusatkan teks di dalam container */
+    max-width: 600px; /* Lebar maksimum container */
+    width: 90%; /* Lebar responsif */
+}
+
+/* Styling untuk judul (h1) */
+h1 {
+    color: #333; /* Warna teks gelap */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+
+/* Styling untuk paragraf (p) */
+p {
+    color: #666; /* Warna teks abu-abu */
+    line-height: 1.6; /* Spasi baris */
+    margin-bottom: 30px; /* Jarak bawah paragraf */
+}
+
+/* Styling untuk tombol */
+.my-button {
+    background-color: #007bff; /* Warna latar belakang biru */
+    color: white; /* Warna teks putih */
+    padding: 12px 25px; /* Jarak di dalam tombol */
+    border: none; /* Menghilangkan border */
+    border-radius: 5px; /* Sudut membulat */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat di-hover */
+    font-size: 16px; /* Ukuran font */
+    transition: background-color 0.3s ease; /* Transisi halus saat hover */
+}
+
+/* Efek saat tombol di-hover */
+.my-button:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat di-hover */
+}
